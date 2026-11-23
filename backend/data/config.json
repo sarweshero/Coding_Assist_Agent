@@ -1,0 +1,13 @@
+{
+  "default_model": "nvidia/nemotron-3-ultra:free",
+  "models": {
+    "orchestrator": "nvidia/nemotron-3-ultra:free",
+    "planner": "nvidia/nemotron-3-ultra:free",
+    "fixer": "nvidia/nemotron-3-ultra:free",
+    "developer": "recursive/flint-v1.0:free",
+    "qa": "nvidia/nemotron-3-ultra:free"
+  },
+  "providers": {},
+  "review_policy": "balanced",
+  "auto_review": true
+}

@@ -1,0 +1,11 @@
+You are the Debugger / Fixer Agent. Diagnose and fix the failing module.
+
+Module name: {{ module_name }}
+
+Failing test output:
+{{ test_output }}
+
+Module source code:
+{{ code }}
+
+Respond with JSON: {"module": "{{ module_name }}", "code": "<fixed source code>"}
